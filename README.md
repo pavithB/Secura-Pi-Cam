@@ -95,7 +95,7 @@ sudo pip install https://github.com/secdev/scapy/zipball/master
 Install rpi-security, reload systemd configuration and enable the service:
 
 ```
-sudo pip install https://github.com/RAVEENSAVINDA/rpi-security/zipball/master
+sudo pip install https://github.com/pavithB/Secura-Pi-Cam/master
 sudo systemctl daemon-reload
 sudo systemctl enable secura_pi_cam.service
 ```
@@ -151,7 +151,7 @@ phy#0
                 channel 1 (2412 MHz), width: 40 MHz, center1: 2422 MHz
 ```
 
-You could have interfaces with different names, just be sure to change the ``network_interface`` parameter in ``/etc/secura_pi_cam.conf`` and also the reference to mon0 in [rpi-security.service](https://github.com/RAVEENSAVINDA/Secura-Pi-Cam/blob/master/etc/secura_pi_cam.service)
+You could have interfaces with different names, just be sure to change the ``network_interface`` parameter in ``/etc/secura_pi_cam.conf`` and also the reference to mon0 in [rpi-security.service](https://github.com/pavithB/Secura-Pi-Cam/blob/master/etc/secura_pi_cam.service)
 
 ### Reboot on connectivity loss
 
